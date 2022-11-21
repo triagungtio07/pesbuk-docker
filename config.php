@@ -1,8 +1,8 @@
 <?php
 
-$db_host = "localhost";
-$db_user = "devopscilsy";
-$db_pass = "1234567890";
+$db_host = "db";
+$db_user = "agung";
+$db_pass = "agung123";
 $db_name = "dbsosmed";
 
 try {    
@@ -12,3 +12,4 @@ try {
     //show error
     die("Terjadi masalah: " . $e->getMessage());
 }
+
